@@ -2,7 +2,7 @@
 <!--                   Contact                    -->
 <!-- ============================================ -->
 
-<section id="contact-1271">
+<section id="contact">
     <div class="cs-container">
         <div class="cs-form-group">
             <h3 class="cs-h3">
@@ -55,13 +55,13 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #contact-1271 {
+    #contact {
         padding: var(--sectionPadding);
         overflow: hidden;
         position: relative;
         z-index: 1;
     }
-    #contact-1271 .cs-container {
+    #contact .cs-container {
         width: 100%;
         /* changes to 1280px at desktop */
         max-width: 36.5rem;
@@ -73,7 +73,7 @@
         /* 48px - 64px */
         gap: clamp(3rem, 5vw, 4rem);
     }
-    #contact-1271 .cs-content {
+    #contact .cs-content {
         /* set text align to left if content needs to be left aligned */
         text-align: center;
         width: 100%;
@@ -83,7 +83,7 @@
         /* centers content horizontally, set to flex-start to left align */
         align-items: center;
     }
-    #contact-1271 .cs-form-group {
+    #contact .cs-form-group {
         /* set text align to left if content needs to be left aligned */
         text-align: center;
         width: 100%;
@@ -103,15 +103,15 @@
         order: 2;
     }
 
-    #contact-1271 .cs-title {
+    #contact .cs-title {
         color: var(--bodyTextColorWhite);
     }
-    #contact-1271 .cs-text {
+    #contact .cs-text {
         margin: 0;
         color: var(--bodyTextColorWhite);
         opacity: 0.8;
     }
-    #contact-1271 .cs-h3 {
+    #contact .cs-h3 {
         font-size: 1.25rem;
         line-height: 1.2em;
         font-weight: 700;
@@ -124,7 +124,7 @@
         align-items: flex-start;
         gap: 1rem;
     }
-    #contact-1271 .cs-picture {
+    #contact .cs-picture {
         width: 3.25rem;
         height: 3.25rem;
         border-radius: 50%;
@@ -136,7 +136,7 @@
         position: relative;
         z-index: 1;
     }
-    #contact-1271 .cs-picture:before {
+    #contact .cs-picture:before {
         content: "";
         width: 100%;
         height: 100%;
@@ -147,7 +147,7 @@
         top: 0;
         left: 0;
     }
-    #contact-1271 .cs-form {
+    #contact .cs-form {
         width: 100%;
         padding: 0;
         /* prevents flexbox from affecting height and width */
@@ -156,7 +156,7 @@
         grid-template-columns: repeat(12, 1fr);
         gap: 0.75rem;
     }
-    #contact-1271 .cs-label {
+    #contact .cs-label {
         /* 14px - 16px */
         font-size: clamp(0.875rem, 1.5vw, 1rem);
         color: var(--headerColor);
@@ -167,7 +167,7 @@
         align-items: flex-start;
         gap: 0.5rem;
     }
-    #contact-1271 .cs-input {
+    #contact .cs-input {
         font-size: 1rem;
         width: 100%;
         /* 46px - 56px */
@@ -180,17 +180,17 @@
         /* prevents padding from adding to height and width */
         box-sizing: border-box;
     }
-    #contact-1271 .cs-input::placeholder {
+    #contact .cs-input::placeholder {
         color: #7d799c;
         opacity: 0.6;
     }
-    #contact-1271 .cs-textarea {
+    #contact .cs-textarea {
         min-height: 7.5rem;
         padding-top: 1.5rem;
         margin-bottom: 1rem;
         font-family: inherit;
     }
-    #contact-1271 .cs-button-solid {
+    #contact .cs-button-solid {
         font-size: 1rem;
         /* 46px - 56px */
         line-height: clamp(2.875em, 5.5vw, 3.5em);
@@ -211,7 +211,7 @@
         box-sizing: border-box;
         transition: color 0.3s;
     }
-    #contact-1271 .cs-button-solid:before {
+    #contact .cs-button-solid:before {
         content: "";
         position: absolute;
         height: 100%;
@@ -223,23 +223,23 @@
         z-index: -1;
         transition: width 0.3s;
     }
-    #contact-1271 .cs-button-solid:hover {
+    #contact .cs-button-solid:hover {
         color: #fff;
     }
-    #contact-1271 .cs-button-solid:hover:before {
+    #contact .cs-button-solid:hover:before {
         width: 100%;
     }
-    #contact-1271 .cs-submit {
+    #contact .cs-submit {
         width: 100%;
         margin: 0;
         color: var(--bodyTextColorWhite);
         border-radius: 0.5rem;
         grid-column: span 12;
     }
-    #contact-1271 .cs-submit:hover {
+    #contact .cs-submit:hover {
         cursor: pointer;
     }
-    #contact-1271 .cs-wrapper {
+    #contact .cs-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -247,7 +247,7 @@
         order: 2;
         position: relative;
     }
-    #contact-1271 .cs-card-group {
+    #contact .cs-card-group {
         width: 100%;
         max-width: 32.625rem;
         margin: 0;
@@ -260,7 +260,7 @@
         position: relative;
         z-index: 1;
     }
-    #contact-1271 .cs-item {
+    #contact .cs-item {
         text-align: left;
         list-style: none;
         width: 100%;
@@ -273,25 +273,25 @@
         position: relative;
         z-index: 1;
     }
-    #contact-1271 .cs-item:hover:before {
+    #contact .cs-item:hover:before {
         opacity: 1;
     }
-    #contact-1271 .cs-item:hover .cs-header,
-    #contact-1271 .cs-item:hover .cs-item-text,
-    #contact-1271 .cs-item:hover .cs-link {
+    #contact .cs-item:hover .cs-header,
+    #contact .cs-item:hover .cs-item-text,
+    #contact .cs-item:hover .cs-link {
         color: var(--bodyTextColorWhite);
     }
-    #contact-1271 .cs-item:hover .cs-text,
-    #contact-1271 .cs-item:hover .cs-link {
+    #contact .cs-item:hover .cs-text,
+    #contact .cs-item:hover .cs-link {
         opacity: 0.8;
     }
-    #contact-1271 .cs-item:hover .cs-link:hover {
+    #contact .cs-item:hover .cs-link:hover {
         color: var(--primary);
     }
-    #contact-1271 .cs-item:hover .cs-icon {
+    #contact .cs-item:hover .cs-icon {
         filter: grayscale(1) brightness(1000%);
     }
-    #contact-1271 .cs-item:before {
+    #contact .cs-item:before {
         /* hover border and background */
         content: "";
         width: 100%;
@@ -306,7 +306,7 @@
         z-index: -1;
         transition: opacity 0.3s;
     }
-    #contact-1271 .cs-header {
+    #contact .cs-header {
         font-size: 1.25rem;
         line-height: 1.2em;
         text-align: inherit;
@@ -316,7 +316,7 @@
         display: block;
         transition: color 0.3s;
     }
-    #contact-1271 .cs-item-text {
+    #contact .cs-item-text {
         /* 14px - 16px */
         font-size: clamp(0.875rem, 1.5vw, 1rem);
         line-height: 1.5em;
@@ -326,7 +326,7 @@
         display: block;
         transition: color 0.3s;
     }
-    #contact-1271 .cs-link {
+    #contact .cs-link {
         /* 14px - 16px */
         font-size: clamp(0.875rem, 1.5vw, 1rem);
         line-height: 1.5em;
@@ -339,11 +339,11 @@
         gap: 0.25rem;
         transition: color 0.3s;
     }
-    #contact-1271 .cs-icon {
+    #contact .cs-icon {
         width: 1rem;
         height: auto;
     }
-    #contact-1271 .cs-background {
+    #contact .cs-background {
         width: 100%;
         height: 50%;
         background-color: #fff;
@@ -353,7 +353,7 @@
         left: 0;
         z-index: -1;
     }
-    #contact-1271 .cs-background img {
+    #contact .cs-background img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -364,45 +364,45 @@
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-    #contact-1271 .cs-label:nth-of-type(1),
-    #contact-1271 .cs-label:nth-of-type(2) {
+    #contact .cs-label:nth-of-type(1),
+    #contact .cs-label:nth-of-type(2) {
         grid-column: span 6;
     }
 }
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #contact-1271 {
+    #contact {
         /* moved padding back to the section container */
         padding: var(--sectionPadding);
     }
-    #contact-1271 .cs-container {
+    #contact .cs-container {
         max-width: 80rem;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
-    #contact-1271 .cs-content {
+    #contact .cs-content {
         text-align: left;
         margin: 0;
         padding: 0;
         align-items: flex-start;
     }
-    #contact-1271 .cs-title {
+    #contact .cs-title {
         color: var(--headerColor);
     }
-    #contact-1271 .cs-text {
+    #contact .cs-text {
         color: var(--bodyTextColor);
         opacity: 1;
     }
-    #contact-1271 .cs-form-group {
+    #contact .cs-form-group {
         width: 43%;
         max-width: 32.625rem;
         margin: 0;
     }
-    #contact-1271 .cs-form {
+    #contact .cs-form {
         padding: 0;
     }
-    #contact-1271 .cs-wrapper {
+    #contact .cs-wrapper {
         width: 50%;
         max-width: 39.375rem;
         flex: none;
@@ -411,7 +411,7 @@
         /* removes position from it so the absolutely positioned background group can now be positioned relative to the section container */
         position: initial;
     }
-    #contact-1271 .cs-background {
+    #contact .cs-background {
         width: 60vw;
         height: 100%;
         /* 172px - 228px */
@@ -420,7 +420,7 @@
         left: 50%;
         top: 0;
     }
-    #contact-1271 .cs-card-group {
+    #contact .cs-card-group {
         padding: 0;
     }
 }
