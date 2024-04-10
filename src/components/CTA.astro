@@ -6,7 +6,7 @@
     <div class="cs-container">
         <div class="cs-content">
             <h2 class="cs-title">Have Doubts? Get Your Queries Solved by Our Experts</h2>
-            <a href="#contact" class="cs-button-solid">Get In Touch</a>
+            <a href="#contact" class="cs-button-4" aria-label="read more about us">Get in Touch</a>
         </div>
     </div>
     <div class="cs-wrapper">
@@ -22,6 +22,10 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
+  .cs-button-4 {
+    background-color: #000;
+    box-shadow: 4px 4px 0px 0px #fff;
+  }
   #cta-1693 {
     padding: var(--sectionPadding);
     background-color: var(--primary);
@@ -52,43 +56,6 @@
     max-width: 30ch;
     margin: 0;
     color: #fff;
-  }
-  #cta-1693 .cs-button-solid {
-    font-size: 1rem;
-    font-weight: 700;
-    /* 46px - 56px */
-    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-    text-align: center;
-    text-decoration: none;
-    min-width: 9.375rem;
-    margin: 0;
-    /* prevents padding from adding to the width */
-    box-sizing: border-box;
-    padding: 0 1.5rem;
-    color: #fff;
-    /* background-color: var(--secondary); */
-    background-color: #000;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-  }
-  #cta-1693 .cs-button-solid:before {
-    content: "";
-    width: 0%;
-    height: 100%;
-    background: #fff;
-    opacity: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: width 0.3s;
-  }
-  #cta-1693 .cs-button-solid:hover:before {
-    width: 100%;
-  }
-  #cta-1693 .cs-button-solid:hover {
-    color: #000;
   }
   #cta-1693 .cs-wrapper {
     width: 100%;
